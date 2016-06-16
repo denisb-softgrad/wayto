@@ -1,0 +1,78 @@
+@media (max-width: 1200px) {
+	.container {
+		width: 930px;
+	}
+}
+@media (max-width: 959px) {
+	.container {
+		width: 700px;
+	}
+	.submenu-block-img {
+		height: 100px;
+	}
+}
+@media (max-width: 767px) {
+	.container {
+		width: 90%;
+	}
+	.content {
+		width: 100%;
+	}
+	.sidebar {
+		width: 100%;
+	}
+	.hmenu-btn {
+		display: block;
+	}
+	.hmenu {
+		display: none;
+	}
+	.hright {
+		display: none;
+	}
+	.search-input {
+		width: 70%;
+	}
+	.search-form {
+		width: 57%;
+	}
+	.site-description {
+		font-size: 14px;
+	}
+	.hdate {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 15px;
+
+	}
+	.site-logo {
+		font-size: 36px;
+	}
+	.topmenu {
+		display: none;
+	}
+	.fblock {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+		float: none;
+		&:last-child {
+			border-left: none;
+			width: 100%;
+		} 
+	}
+	.fbot-left {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.back-to-top {
+		position: static;
+		display: block;
+		text-align: center;
+	}
+	.cont-block {
+		width: 100%;
+	}
+}

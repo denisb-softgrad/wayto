@@ -1,14 +1,5 @@
 $(document).ready(function() {
-	$('.masonry-wrapper').masonry({
-	  itemSelector: '.cont-block',
-          singleMode: true,
-	  isResizable: true,
-	  isAnimated: true,
-          animationOptions: { 
-	      queue: false, 
-	      duration: 500 
-	  }
-	}); 
+
 	$('.hmenu-btn').click(function(){
 		$('.mobile-menu').toggleClass('mobile-menu-open');
 		$('.all').toggleClass('all-moved');
@@ -25,3 +16,7 @@ $(document).ready(function() {
 		$(this).toggleClass('expanded');
 	});
 });
+
+$(window).load(function(){   $('.masonry-wrapper').masonry({
+	  itemSelector: '.cont-block'
+	});  });

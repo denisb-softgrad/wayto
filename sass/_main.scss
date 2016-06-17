@@ -1,7 +1,9 @@
 /////////////////////// main //////////////////////////
 h1 {
-	font-size: 18px;
+	font-size: 46px;
 	padding-bottom: 20px;
+	@extend .libre;
+	font-weight: bold;
 }
 h2 {
 	font-size: 22px;
@@ -613,4 +615,18 @@ cursor: default;
 		top: -2px;
 		margin-left: 5px;
 	}
+}
+//////////////////  cat  //////////////////////////
+.cat-block {
+	width: 33%;
+	float: left;
+	.cb-by {
+		border-width: 3px;
+	}
+	
+}
+.cat-title-block {
+	text-align: center;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
 }

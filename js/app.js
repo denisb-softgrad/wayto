@@ -20,3 +20,6 @@ $(document).ready(function() {
 $(window).load(function(){   $('.masonry-wrapper').masonry({
 	  itemSelector: '.cont-block'
 	});  });
+$(window).load(function(){   $('.masonry-cat-wrapper').masonry({
+	  itemSelector: '.cat-block'
+	});  });

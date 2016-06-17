@@ -1,6 +1,6 @@
 /////////////////////// main //////////////////////////
 h1 {
-	font-size: 46px;
+	font-size: 48px;
 	padding-bottom: 20px;
 	@extend .libre;
 	font-weight: bold;
@@ -16,6 +16,12 @@ h3 {
 	text-transform: uppercase;
 	@extend .opensans;
 	font-weight: bold;
+	margin-bottom: 10px;
+}
+h4 {
+	text-transform: uppercase;
+	font-family: georgia;
+	font-size: 16px;
 	margin-bottom: 10px;
 }
 .tar {
@@ -629,4 +635,108 @@ cursor: default;
 	text-align: center;
 	border-bottom: 1px solid #eee;
 	margin-bottom: 20px;
+}
+.bb3 {
+	border-width: 3px;
+}
+.cat-descr {
+	color: rgb(140, 145, 155);
+	font-size: 16px;
+	text-align: center;
+	width: 90%;
+	max-width: 690px;
+	line-height: 1.5em;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 45px;
+	a {
+		color: rgb(35, 82, 124);
+	}
+}
+.guide-block {
+	background: #efefef;
+	padding: 15px;
+	margin-bottom: 20px;
+	p {
+		color: rgb(153, 153, 153);
+		line-height: 1.5em;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+}
+.fast-start {
+	background: #fff;
+	box-shadow: rgba(50,50,50,.5) 5px 7px 10px 0;
+	margin-bottom: 15px;
+}
+.fs-title {
+	background: #86E0EB;
+	font-size: 14px;
+	@extend .opensans;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 15px 5px;
+	text-align: center;
+}
+.fs-cont {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 30px 15px;
+	h3 {
+		padding: 15px 10px;
+		@extend .libre;
+		font-size: 22px;
+	}
+}
+.input {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-row {
+	margin-bottom: 10px;
+}
+.btn-black {
+	background: #222;
+	color: #FFF;
+	font-weight: bold;
+	width: 100%;
+	font-family: arial, sans-serif;
+	text-transform: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+.wp-list {
+	padding-left: 10px;
+	li {
+		margin-top: 15px;
+		padding-top: 15px;
+		border-top: 1px solid #ccc;
+		font-size: 16px;
+	}
+	a {
+		font-family: 'Libre Baskerville',georgia,serif;
+		font-weight: 700;
+	}
+}
+.bb {
+	border-bottom: 1px solid #000;
+}
+.wp-side-block {
+	margin-bottom: 30px;
+	padding-bottom: 20px;
 }

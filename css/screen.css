@@ -50,6 +50,8 @@ h3 { font-size: 18px; text-transform: uppercase; font-weight: bold; margin-botto
 
 h4 { text-transform: uppercase; font-family: georgia; font-size: 16px; margin-bottom: 10px; }
 
+h5 { font-size: 18px; font-family: georgia; margin-bottom: 10px; }
+
 .tar { text-align: right; }
 
 .tal { text-align: left; }
@@ -61,13 +63,21 @@ a:hover { color: #23527c; }
 
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-.libre, h1, h2, .site-logo, .submenu-block, .sidemenu li, .fs-cont h3 { font-family: 'Libre Baskerville',georgia,serif; }
+.libre, h1, h2, .site-logo, .submenu-block, .sidemenu li, .fs-cont h3, .pb-title { font-family: 'Libre Baskerville',georgia,serif; }
 
 .opensans, h3, .submenu-links li, .cb-by, .fsubmenu a, .fs-title { font-family: 'Open Sans', sans-serif; }
 
 .helv-neu, .btn, .hmenu, .search-input, .topmenu-item, .custom-select-btn { font-family: 'Helvetica Neue'; }
 
 .btn { background: #E7E7E7; border: 1px solid #CCC; padding: 7px 15px; font-weight: bold; text-transform: uppercase; }
+
+.blue-btn { background: #2B4783; border: none; color: #fff; }
+.blue-btn:hover { color: #FFF; }
+
+.lightblue-btn { background: #00A3D0; border: none; color: #fff; }
+.lightblue-btn:hover { color: #FFF; }
+
+.w-btn { width: 100%; text-align: center; font-size: 18px; font-weight: bold; font-family: arial,sans-serif; text-transform: none; display: block; padding-top: 10px; padding-bottom: 10px; }
 
 .logo { float: left; display: block; padding: 8px; border-right: 1px dotted #eee; }
 
@@ -262,6 +272,65 @@ body { overflow-x: hidden; }
 
 .wp-side-block { margin-bottom: 30px; padding-bottom: 20px; }
 
+.img-responsive { max-width: 100%; }
+
+.post { font-size: 16px; border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 30px; }
+.post p { line-height: 23px; margin-bottom: 18px; }
+.post p:first-of-type:first-letter { font-size: 60px; float: left; margin-right: 10px; }
+.post img { margin-bottom: 10px; }
+.post ul { list-style: square outside; padding-left: 35px; }
+.post ul li { margin-bottom: 20px; padding-left: 15px; }
+
+em { font-style: italic; }
+
+.col { float: left; padding-left: 10px; padding-right: 10px; }
+
+.row { margin-left: -10px; margin-right: -10px; }
+
+.col-1-2 { width: 50%; }
+
+.col-1-3 { width: 33.3%; }
+
+.grid-wrapper { padding-left: 10px; padding-right: 10px; }
+
+.post-social-buttons .col { padding: 2px; }
+
+.post-likes { font-size: 16px; margin-bottom: 10px; }
+
+.post-social-buttons { margin-bottom: 30px; }
+
+.pb-title { font-weight: bold; font-size: 16px; }
+
+.pb-img { margin-bottom: 5px; }
+
+.related-posts { border-bottom: 3px solid #000; padding-bottom: 30px; margin-bottom: 55px; }
+
+.tabs__content { display: none; }
+
+.tabs__content.active { display: block; }
+
+.tab-img { float: left; width: 100px; }
+
+.tab-content { margin-left: 120px; font-size: 14px; color: #666666; }
+.tab-content p { margin-bottom: 10px; }
+.tab-content ul { list-style: square outside; padding-left: 15px; }
+.tab-content ul li { margin-bottom: 10px; padding-left: 0px; }
+
+.tabs-wrapper { background: #F8F8F8; padding: 10px; }
+.tabs-wrapper .tw-inner { border: 1px solid #dfdfdf; padding: 20px; }
+
+.tabs__caption { overflow: hidden; }
+.tabs__caption li { float: left; width: 50%; text-align: center; padding: 10px; font-size: 14px; cursor: pointer; }
+.tabs__caption li.active { background: #F8F8F8; }
+
+.pb-title { font-size: 16px; font-weight: bold; margin-bottom: 10px; }
+
+.p-block { padding: 20px 0; margin-bottom: 20px; border-top: 1px solid #eee; }
+.p-block:last-child { padding-bottom: 0; }
+
+.cat-cat-block { text-transform: uppercase; text-align: center; color: #8c919b; font-family: georgia,sans-serif; margin-bottom: 10px; }
+.cat-cat-block a { color: #8c919b; }
+
 @media (max-width: 1200px) { .container { width: 930px; } }
 @media (max-width: 959px) { .container { width: 700px; }
   .submenu-block-img { height: 100px; } }
@@ -283,4 +352,10 @@ body { overflow-x: hidden; }
   .back-to-top { position: static; display: block; text-align: center; }
   .cont-block { width: 100%; }
   .cat-block { width: 100%; float: none; }
-  .cat-title-block { padding-top: 20px; } }
+  .cat-title-block { padding-top: 20px; }
+  .wrapper { padding-top: 20px; }
+  h1 { font-size: 33px; }
+  .col { float: none; }
+  .col-1-3 { width: 100%; } }
+@media (max-width: 479px) { .tab-img { float: none; margin-bottom: 10px; }
+  .tab-content { margin-left: 0; } }

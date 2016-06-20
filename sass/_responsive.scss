@@ -82,4 +82,26 @@
 	.cat-title-block {
 		padding-top: 20px;
 	}
+	.wrapper {
+		padding-top: 20px;
+	}
+	h1 {
+		font-size: 33px;
+	}
+	.col {
+		float: none;
+	}
+	.col-1-3 {
+		width: 100%;
+	}
+
+}
+@media (max-width: 479px) {
+	.tab-img {
+		float: none;
+		margin-bottom: 10px;
+	}
+	.tab-content {
+		margin-left: 0;
+	}
 }

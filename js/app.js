@@ -15,6 +15,8 @@ $(document).ready(function() {
 		$(this).parent('li').find('.m-submenu').slideToggle('fast');
 		$(this).toggleClass('expanded');
 	});
+	
+	
 });
 
 $(window).load(function(){   $('.masonry-wrapper').masonry({
@@ -23,3 +25,6 @@ $(window).load(function(){   $('.masonry-wrapper').masonry({
 $(window).load(function(){   $('.masonry-cat-wrapper').masonry({
 	  itemSelector: '.cat-block'
 	});  });
+ if ($(window).width() > '768') {
+		jQuery('.ab-sidebar').containedStickyScroll();
+	};

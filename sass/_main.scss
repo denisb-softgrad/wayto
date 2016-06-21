@@ -923,3 +923,31 @@ em {
 		color: rgb(140, 145, 155);
 	}
 }
+.br {
+	border-right: 1px solid #eee;
+}
+.author-block {
+	background: #F8F8F8;
+	padding: 10px;
+}
+.ab-inner {
+	border: 1px solid rgb(223, 223, 223);
+	padding: 15px;
+}
+.ab-img {
+	margin-bottom: 36px;
+}
+.ab-title {
+	font-size: 18px;
+	color: rgb(35, 35, 35);
+	@extend .libre;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 36px;
+}
+.ab-text {
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 20px;
+	line-height: 1.5em;
+}
